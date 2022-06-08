@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+
+    <!--Import of desing-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="topnavSpace">
+        <div class="topnav" id="myTopnav">
+          <a href="#homeDiv" class="active">Home</a>
+          <a href="#educationDiv">Education</a>
+          <a href="#skillsDiv">Skills and Tools</a>
+          <a href="#interestsDiv">Interest</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <span class="iconify" data-icon="carbon:search-locate"></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrapper" id="homeDiv">
+      <!--Introduction-->
+      <div class="intro">
+        <div class="profile">
+          <div class="photo">
+            <img src="img/imgJos1.png" />
+          </div>
+          <div class="bio">
+            <h1 class="name">Joseline Paniagua Carmona</h1>
+            <p class="profession">Front-end Developer</p>
+          </div>
+        </div>
+        <!--About me -->
+        <div class="intro-section about">
+          <table class="intro-section table">
+            <tr>
+              <th>
+                <span class="material-icons" id="iconsInfoSection">
+                  perm_identity
+                </span>
+              </th>
+              <th>
+                <h1 class="title">about me</h1>
+              </th>
+            </tr>
+          </table>
+          <p class="paragraph">
+            Hi everyone, I'm a web front-end developer, who graduated from UCR,
+            Costa Rica. I'm a creative person who likes to enjoy everything that
+            has relation the design.
+          </p>
+        </div>
+        <!--LAnguages -->
+        <div class="intro-section languages">
+          <table class="intro-section table">
+            <tr>
+              <th>
+                <span class="material-icons" id="iconsInfoSection">
+                  question_answer
+                </span>
+              </th>
+              <th>
+                <h1 class="title">Languages</h1>
+              </th>
+            </tr>
+          </table>
+          <div class="info-section">
+            <i class="fab fa-firstLanguage"></i>
+            <span>Spanish (First language) </span>
+
+            <!--
+            <a href="doc/Cronograma 2022.pdf"></a>
+           -->
+          </div>
+          <div class="info-section link">
+            <!--Link a documentos-->
+            <a target="_blank" rel="author" href="doc/Titulo.pdf">
+              <span>English (B2)</span>
+            </a>
+            <!--
+            <iframe
+              src="doc/Cronograma 2022.pdf"
+              height="100%"
+              width="100%"
+            ></iframe>
+            -->
+          </div>
+        </div>
+        <!--Contact -->
+        <div class="intro-section contact">
+          <table class="intro-section table">
+            <tr>
+              <th>
+                <span class="material-icons" id="iconsInfoSection">
+                  contacts
+                </span>
+              </th>
+              <th>
+                <h1 class="title">Contact</h1>
+              </th>
+            </tr>
+          </table>
+
+          <div class="info-section">
+            <span>(+506) 84707099</span>
+          </div>
+          <div class="info-section">
+            <span> Puntarenas, Costa Rica</span>
+          </div>
+          <div class="info-section">
+            <span>joselinepaniagua31@gmail.com</span>
+          </div>
+        </div>
+        <!--Social Media -->
+        <div class="intro-section socialMedia">
+          <table class="intro-section table">
+            <tr>
+              <th>
+                <span class="material-icons" id="iconsInfoSection">
+                  supervisor_account
+                </span>
+              </th>
+              <th>
+                <h1 class="title">Social Media</h1>
+              </th>
+            </tr>
+          </table>
+
+          <div class="info-section">
+            <div class="info-section link">
+              <a>
+                <span
+                  class="iconify"
+                  id="socialMedia"
+                  data-icon="mdi:instagram"
+                ></span>
+              </a>
+              <!--Link a documentos-->
+              <a
+                target="_blank"
+                rel="author"
+                href="https://www.instagram.com/_jos_2099/"
+              >
+                <span>_jos_2099</span>
+              </a>
+            </div>
+          </div>
+          <div class="info-section">
+            <div class="info-section link">
+              <!--Link a documentos-->
+              <a>
+                <span
+                  class="iconify"
+                  id="socialMedia"
+                  data-icon="akar-icons:facebook-fill"
+                ></span>
+              </a>
+              <a
+                target="_blank"
+                rel="author"
+                href="https://www.facebook.com/joseline.paniagua.carmona/"
+              >
+                <span>Joseline Paniagua Carmona</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Education-->
+      <div class="detail">
+        <div class="detail-section edu" id="educationDiv">
+          <div class="detail-title">
+            <div class="title-icon">
+              <span
+                class="iconify"
+                id="iconCircle"
+                data-icon="zondicons:education"
+              ></span>
+            </div>
+            <span>Education</span>
+          </div>
+          <div class="detail-content">
+            <div class="timeline-block">
+              <h1>High-school certificate</h1>
+              <p>
+                Colegio Técnico Profesional Agropecuario de Corredores, Costa
+                Rica
+              </p>
+              <time>2012 - 2017</time>
+            </div>
+            <div class="timeline-block">
+              <h1>Intermediate technician in executive for service centers</h1>
+              <p>
+                Colegio Técnico Profesional Agropecuario de Corredores, Costa
+                Rica
+              </p>
+              <time>2015 - 2017</time>
+            </div>
+            <div class="timeline-block">
+              <h1>Bachelor of Business Informatics</h1>
+              <p>Universidad de Costa Rica, Costa Rica</p>
+              <time>2018 - present</time>
+            </div>
+          </div>
+        </div>
+        <!--Skills-->
+        <div class="detail-section pg-skill" id="skillsDiv">
+          <div class="detail-title">
+            <div class="title-icon">
+              <span
+                class="iconify"
+                id="iconCircle"
+                data-icon="cib:skillshare"
+              ></span>
+            </div>
+            <span>Programming skills</span>
+          </div>
+          <div class="detail-content">
+            <ul class="pg-list">
+              <li>
+                <span>HTML5</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 65%"></div>
+                </div>
+              </li>
+              <li>
+                <span>CSS3</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 50%"></div>
+                </div>
+              </li>
+              <li>
+                <span>Javascript</span>
+                <div class="sb-skeleton">
+                  <div class="skillbar" style="--pgbar-length: 40%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Tools-->
+        <div class="detail-section tool-skill" id="toolsDiv">
+          <div class="detail-title">
+            <div class="title-icon">
+              <span class="iconify" id="iconCircle" data-icon="ep:tools"></span>
+            </div>
+            <span>Developement Tools</span>
+          </div>
+          <div class="detail-content">
+            <ul class="tool-list">
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.6"
+                  ></circle>
+                </svg>
+                <span class="tl-name">Visual</span>
+                <span class="tl-exp">70%</span>
+              </li>
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.8"
+                  ></circle>
+                </svg>
+                <span class="tl-name">Netbeans</span>
+                <span class="tl-exp">80%</span>
+              </li>
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.7"
+                  ></circle>
+                </svg>
+                <span class="tl-name">Git</span>
+                <span class="tl-exp">70%</span>
+              </li>
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.74"
+                  ></circle>
+                </svg>
+                <span class="tl-name">NPM</span>
+                <span class="tl-exp">74%</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="detail-section interests" id="interestsDiv">
+          <div class="detail-title">
+            <div class="title-icon">
+              <span
+                class="iconify"
+                id="iconCircle"
+                data-icon="ic:outline-interests"
+              ></span>
+            </div>
+            <span>Interests</span>
+          </div>
+          <div class="detail-content">
+            <div class="outer-frame">
+              <ul class="favor-list">
+                <li>
+                  <!--ANIMATION-->
+                  <iframe
+                    class="animation"
+                    src="https://embed.lottiefiles.com/animation/4887"
+                  ></iframe>
+                  <span>Books</span>
+                </li>
+                <li>
+                  <iframe
+                    class="animation"
+                    src="https://embed.lottiefiles.com/animation/24278"
+                  ></iframe>
+                  <span>Pets</span>
+                </li>
+                <li>
+                  <iframe
+                    class="animation"
+                    src="https://embed.lottiefiles.com/animation/97252"
+                  ></iframe>
+                  <span>Music</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/function.js"></script>
+  </body>
+</html>
